@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 const Header = () => {
 
-	const [ mobileMenu, setMobileMenu ] = useState(false);
+	const [ mobileMenu, setMobileMenu ] = useState(true);
 
     return (
       <>
