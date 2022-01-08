@@ -1,0 +1,14 @@
+.homepage {
+	overflow-y: auto;
+	display: grid;
+	grid-template-columns: auto 30vw;
+	grid-template-rows: auto;
+}
+
+@media (max-width: 748px) {
+	.homepage {
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+		height: 100%;
+	}
+}

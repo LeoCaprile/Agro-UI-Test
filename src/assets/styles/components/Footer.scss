@@ -1,0 +1,15 @@
+@import '../Vars.scss';
+
+footer {
+	background-color: $header-bg;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $text-color;
+	bottom: 0;
+	span {
+		color: orange;
+	}
+}

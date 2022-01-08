@@ -1,0 +1,16 @@
+.sidebar {
+	background-color: rgb(221, 221, 221);
+	padding: 1rem;
+	h1 {
+		padding: 10px;
+		border-bottom: 2px solid rgb(190, 190, 190);
+	}
+
+	a {
+		display: flex;
+		flex-direction: column;
+		color: orange;
+		padding-left: 1rem;
+		line-height: 2rem;
+	}
+}

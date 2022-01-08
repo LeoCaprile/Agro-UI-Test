@@ -1,0 +1,12 @@
+.section {
+	display: flex;
+	flex-direction: column;
+	padding: 0 1rem;
+}
+
+@media (max-width: 748px) {
+	.section {
+		display: grid;
+		padding: 0 1rem;
+	}
+}

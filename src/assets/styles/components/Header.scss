@@ -1,0 +1,50 @@
+@import '../Vars.scss';
+
+.header {
+	background-color: $header-bg;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 12vh;
+
+	.header__title {
+		display: flex;
+		align-items: center;
+		h2 {
+			margin-left: 1rem;
+			font-size: 3rem;
+			color: $text-color;
+		}
+		h1 {
+			font-size: 5rem;
+			color: orange;
+		}
+	}
+
+	.header__burger {
+		display: none;
+	}
+}
+
+@media (max-width: 748px) {
+	.header {
+		.header__burger {
+			cursor: pointer;
+			height: 50px;
+			width: 50px;
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+			align-items: center;
+			justify-content: center;
+			margin-right: 1rem;
+			span {
+				background-color: #fff;
+				color: #fff;
+				height: 5px;
+				width: 25px;
+			}
+		}
+	}
+}
